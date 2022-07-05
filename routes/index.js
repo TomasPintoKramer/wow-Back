@@ -5,6 +5,6 @@ const routerNews = require("./news");
 const routerUser = require("./User");
 
 Router.use("/news", routerNews);
-Router.use("/news", routerNews);
+Router.use("/user", routerUser);
 
 module.exports = Router;

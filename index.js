@@ -1,10 +1,13 @@
 const mongo = require("./config/db.js");
 const express = require("express");
+const session = require("express-session");
 const app = express();
 const cors = require("cors");
 const morgan = require("morgan");
 const routes = require("./routes");
-
+const passport = require("./passport/setup");
+const MongoStore = require("connect-mongo");
+const mongoose = require("mongoose");
 const News = require("./models/News.js");
 
 // logging middleware
@@ -17,6 +20,22 @@ app.use(
 );
 // parsing middleware
 app.use(express.json());
+
+//authentication
+app.use(
+  session({
+    secret: "really really good looking",
+    resave: false,
+    saveUninitialized: true,
+    store: MongoStore.create({
+      mongoUrl:
+        "mongodb+srv://userWow:wow2022@wowdb.bjojf.mongodb.net/wowDb?retryWrites=true&w=majority",
+    }),
+  })
+);
+
+app.use(passport.initialize());
+app.use(passport.session());
 //Ruteo
 app.use("/api", routes);
 //Ataja errores de 'not found'
