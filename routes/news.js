@@ -36,6 +36,18 @@ newsRouter.get("/newses", (req, res, next) => {
     .catch(next);
 });
 
+newsRouter.get("/search/:field/:value", (req, res, next) => {
+  const {field, value}=req.params
+  console.log("🚀 ~ file: news.js ~ line 41 ~ newsRouter.get ~ req", req)
+  const like=`/${value}/`
+  News.find({})
+  .where(field).equals(value)
+    .then((data) => {
+      res.send(data);
+    })
+    .catch(next);
+});
+
 newsRouter.get("/:id", (req, res, next)=>{
     const {id}=req.params
     News.findById(id)
@@ -66,6 +78,7 @@ newsRouter.put('/:id', (req,res,next)=>{
 
 newsRouter.delete('/:id', (req,res,next)=>{
   const {id}=req.params
+  console.log('entro')
   News.deleteOne({_id:id})
   .then((newNews)=>res.send(newNews))
   .catch(next)

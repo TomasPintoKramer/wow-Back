@@ -20,6 +20,10 @@ const connectToMongoDB = async () => {
           field_credits: "Agustina Vissani",
           field_category: "ACTUALIDAD",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/RCH5WTLFLBBM5KWMARK7ZKKD6M.jpg",
         },
@@ -29,6 +33,10 @@ const connectToMongoDB = async () => {
           field_credits: "Carmen Güiraldes",
           field_category: "Belleza",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/ZNKOBAJ6MVD5BGLI4KGG5AG7S4.jpg",
         },
@@ -39,6 +47,10 @@ const connectToMongoDB = async () => {
           field_credits: "Cecilia Alemano",
           field_category: "Espiritualidad",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -47,6 +59,10 @@ const connectToMongoDB = async () => {
           field_credits: "-",
           field_category: "Histórico",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/OBCVXR2LDBEQRNHR7HNCOA3G7A.jpg",
         },
@@ -57,6 +73,10 @@ const connectToMongoDB = async () => {
           field_category: "Magia",
           field_credits: "Guillermo Franchella",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -66,6 +86,10 @@ const connectToMongoDB = async () => {
           field_category: "Moda",
           field_credits: "Josefina Dotto",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -75,6 +99,10 @@ const connectToMongoDB = async () => {
           field_category: "Brasil",
           field_credits: "Moe Zislak",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -84,6 +112,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           field_credits: "Homero Simpson",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -93,6 +125,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           field_credits: "Eber Luduenia",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -102,6 +138,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           field_credits: "-",
           emotion: "Alegria",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -112,6 +152,10 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Maradona",
           field_category: "Últimas Noticias",
           emotion: "Tristeza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -121,6 +165,10 @@ const connectToMongoDB = async () => {
           field_credits: "Patricia Gallardo",
           field_category: "Belleza",
           emotion: "Tristeza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -130,6 +178,10 @@ const connectToMongoDB = async () => {
           field_credits: "Carlos Milonga",
           field_category: "Histórico",
           emotion: "Tristeza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -138,6 +190,10 @@ const connectToMongoDB = async () => {
           field_category: "Históricría",
           field_credits: "-",
           emotion: "Tristeza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -147,6 +203,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           field_credits: "-",
           emotion: "Tristeza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -156,6 +216,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           field_credits: "-",
           emotion: "Tristeza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -165,6 +229,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           field_credits: "-",
           emotion: "Tristeza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -174,6 +242,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           field_credits: "-",
           emotion: "Tristeza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -184,6 +256,10 @@ const connectToMongoDB = async () => {
           field_credits: "Mariana Copland",
           field_category: "ACTUALIDAD",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/7UNNKOZCBRALPNZQVFJCAU5ZOI.jpg?itok=f3d-nSNA",
         },
@@ -194,6 +270,10 @@ const connectToMongoDB = async () => {
           field_credits: "María Eugenia Castagnino",
           field_category: "Historias",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/HLFXAK7AGVAWRG62IUHHDJVYSU.jpg?itok=72sviiKd",
         },
@@ -204,6 +284,10 @@ const connectToMongoDB = async () => {
           field_credits: "Lucila Cornejo",
           field_category: "Maternidad y crianza",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/UIXKXCXAGFD5VJFAPU4LG7J7YM.jpg?itok=pxm_wXyR",
         },
@@ -213,6 +297,10 @@ const connectToMongoDB = async () => {
           field_category: "Familia",
           field_credits: "Soledad Simond",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/X35LQMI465FZZMVAUQKKKT66EE.jpg?itok=zLYRB6Nx",
         },
@@ -223,6 +311,10 @@ const connectToMongoDB = async () => {
           field_category: "Crimen",
           field_credits: "Alejandro Rapetti",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -234,6 +326,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -243,6 +339,10 @@ const connectToMongoDB = async () => {
           field_category: "Filosofía",
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -253,6 +353,10 @@ const connectToMongoDB = async () => {
           field_category: "Mente",
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -262,6 +366,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -272,6 +380,10 @@ const connectToMongoDB = async () => {
           field_category: "",
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -283,6 +395,10 @@ const connectToMongoDB = async () => {
           field_credits: "Adrian Suarez",
           field_category: "ACTUALIDAD",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/NEULZZ5VRVB5PIXPOM7H42RYZA.jpg?itok=eoLLd6Ec",
         },
@@ -293,6 +409,10 @@ const connectToMongoDB = async () => {
           field_credits: "Pikin Bailando",
           field_category: "Recorridos",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -304,6 +424,10 @@ const connectToMongoDB = async () => {
           field_credits: "Raimundo Rueda",
           field_category: "Últimas Noticias",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -315,6 +439,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Homero Simpson",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -324,6 +452,10 @@ const connectToMongoDB = async () => {
           field_category: "Literatura",
           field_credits: "Carina Durn",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -334,6 +466,10 @@ const connectToMongoDB = async () => {
           field_category: "Amor",
           field_credits: "Marge Simpson",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -344,6 +480,10 @@ const connectToMongoDB = async () => {
           field_category: "Mente",
           field_credits: "Susana Pampin",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -354,6 +494,10 @@ const connectToMongoDB = async () => {
           field_category: "Mujer",
           field_credits: "Soledad Villamil",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -363,6 +507,10 @@ const connectToMongoDB = async () => {
           field_category: "Mente",
           field_credits: "Moe Zislak",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -373,6 +521,10 @@ const connectToMongoDB = async () => {
           field_category: "Maternidad",
           field_credits: "Marge Simpson",
           emotion: "Reflexion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -384,6 +536,10 @@ const connectToMongoDB = async () => {
           field_credits: "Carmen Güiraldes",
           field_category: "Historias",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/7ZS5ADTIAZAPTDVHFVZJ6B2CJY.jpg?itok=wchCf89j",
         },
@@ -395,6 +551,10 @@ const connectToMongoDB = async () => {
           field_credits: "Gisela Carpineta",
           field_category: "Histórico",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/CKBL6ZJ6HZEKTGUB3AXG5PLCNE.jpg?itok=Z-YA51LV",
         },
@@ -406,6 +566,10 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Avaca Cuenca",
           field_category: "ACTUALIDAD",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/SP4TAVAMIZBK5NO2W6RNTOOJYI.jpg?itok=4rKSCVw4",
         },
@@ -417,6 +581,10 @@ const connectToMongoDB = async () => {
           field_category: "Gastronomia",
           field_credits: "Laura Gambale",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/QRNHTL7FGBAZTCA54GR6DRLKBM.jpg?itok=fl0L3MJz",
         },
@@ -428,6 +596,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Marge Simpson",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/KIZQUBZCPBD7HD6EB6IKVPIXTY.jpg?itok=jI6dd5oS",
         },
@@ -438,6 +610,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Ezequiel Brahim",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/LLMGQ5KD5FHJRIJZDKJ6APLWSY.jpg?itok=xPAoF7xP",
         },
@@ -449,6 +625,10 @@ const connectToMongoDB = async () => {
           field_category: "Cultura",
           field_credits: "Soledad Venesio",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/O2FKEKDWQRCGBC7LJSLRWYSYNE.jpg?itok=1bJao9kH",
         },
@@ -460,6 +640,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "María Paz Moltedo",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/MFADZWYM5JD2NOY2FVINCPFQOY.jpeg?itok=vD_8aTYR",
         },
@@ -471,6 +655,10 @@ const connectToMongoDB = async () => {
           field_category: "Moda",
           field_credits: "Ana Paula Queija",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/NDUBGW6MF5BU3PQYSFFWTBWJMY.jpg?itok=mubUxuW1",
         },
@@ -482,6 +670,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Romina Salusso",
           emotion: "Naturaleza",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/WTZPBCWX4RFCTNIQKOOBTO6EMM.jpg?itok=9eE2N4H9",
         },
@@ -492,6 +684,10 @@ const connectToMongoDB = async () => {
           field_credits: "Gisela Carpineta",
           field_category: "Histórico",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/KDRLXVMACFDW5MKAN5RJNOUSLQ.jpg?itok=o1p-PjJC",
         },
@@ -502,6 +698,10 @@ const connectToMongoDB = async () => {
           field_credits: "Jimena Barrionuevo",
           field_category: "Histórico",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -513,6 +713,10 @@ const connectToMongoDB = async () => {
           field_credits: "María Fernanda Lago",
           field_category: "Histórico",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2TP3GR2CJFEELP4TXFVM4OETOA.jpg?itok=ya7llY4G",
         },
@@ -523,6 +727,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Homero Simpson",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/FTS2JZVVFRAAJMFZ4OUMZB5LJE.jpg?itok=inqEos11",
         },
@@ -532,6 +740,10 @@ const connectToMongoDB = async () => {
           field_category: "Moda",
           field_credits: "Susana Villamil",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -542,6 +754,10 @@ const connectToMongoDB = async () => {
           field_category: "Amor",
           field_credits: "Romina Zanellato",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/Y6SGQY76FNDDBIVPBFBA4F5QVE.jpg?itok=Ga8U8NwN",
         },
@@ -552,6 +768,10 @@ const connectToMongoDB = async () => {
           field_category: "Salud",
           field_credits: "Susana Pampin",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -562,6 +782,10 @@ const connectToMongoDB = async () => {
           field_category: "Moda",
           field_credits: "Susana Villamil",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -572,6 +796,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Soledad Maradona",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -582,6 +810,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Susana Pele",
           emotion: "Diversion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -592,6 +824,10 @@ const connectToMongoDB = async () => {
           field_credits: "Paz Azcárate",
           field_category: "Últimas Noticias",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/podcast433x65011610070160.png?itok=2ANc9z0C",
         },
@@ -602,6 +838,10 @@ const connectToMongoDB = async () => {
           field_credits: "Paz Azcárate",
           field_category: "ACTUALIDAD",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/image%20142.png?itok=rheu8TY8",
         },
@@ -612,6 +852,10 @@ const connectToMongoDB = async () => {
           field_credits: "Paz Azcárate",
           field_category: "ACTUALIDAD",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/Enmascarar%20grupo%20110.png?itok=Ea0qhiuH",
         },
@@ -623,6 +867,10 @@ const connectToMongoDB = async () => {
           field_category: "Mente",
           field_credits: "Susana Pampin",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/SBYLK2AIDBFWRFX7OKRK7UUH34.jpg?itok=IXJdL5gq",
         },
@@ -633,6 +881,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Gabriela Origlia ",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/J2JQLSOBDRC67G3ILFU6TLOKQA.jpg?itok=zoYJgBLs",
         },
@@ -644,6 +896,10 @@ const connectToMongoDB = async () => {
           field_category: "Mente",
           field_credits: "Cecilia Alemano",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/CJWVQEYYRZG3RN7OALJGWGH6TM.jpg?itok=LJ3zZ-UO",
         },
@@ -655,6 +911,10 @@ const connectToMongoDB = async () => {
           field_category: "Musica",
           field_credits: "Paz Azcárate",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/X4AY5ALTBRGKHM6PZBB6TEV4ZQ.jpg?itok=O7_giIc7",
         },
@@ -666,6 +926,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Susana Pampin",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -676,6 +940,10 @@ const connectToMongoDB = async () => {
           field_category: "Viajes",
           field_credits: "Gabriela Origlia ",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -687,6 +955,10 @@ const connectToMongoDB = async () => {
           field_category: "Espectaculo",
           field_credits: "Susana Villamil",
           emotion: "Paz",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -698,6 +970,10 @@ const connectToMongoDB = async () => {
           field_credits: "Ana Bilsky",
           field_category: "Astrología",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/LZW45FWX2ZHOZNJH56PONFIYBY.jpg?itok=R-D04dSh",
         },
@@ -708,6 +984,10 @@ const connectToMongoDB = async () => {
           field_credits: "Nathalie Jarast",
           field_category: "Historias",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -718,6 +998,10 @@ const connectToMongoDB = async () => {
           field_credits: "Ana Paula Queija",
           field_category: "ACTUALIDAD",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/CD4J3BNBU5C6BOVIKC5YTENMFA.jpg?itok=F85jrDHv",
         },
@@ -729,6 +1013,10 @@ const connectToMongoDB = async () => {
           field_category: "Musica",
           field_credits: "Ale Sergi",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/VZ6O72WNPZDWNOKUCMWVG5C4MQ.JPG?itok=k-j4tx5M",
         },
@@ -740,6 +1028,10 @@ const connectToMongoDB = async () => {
           field_category: "Amor",
           field_credits: "Karina Korn",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/BHCAE2RUBVBOTJYLWUFGF73JD4.jpg?itok=3dEBlPmc",
         },
@@ -751,6 +1043,10 @@ const connectToMongoDB = async () => {
           field_category: "Cultura",
           field_credits: "Ayelén Di Leva",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/PANWX6ZZWZDWTEO22SSKB5GZKU.jpg?itok=K8uOGSC6",
         },
@@ -762,6 +1058,10 @@ const connectToMongoDB = async () => {
           field_category: "Amor",
           field_credits: "Homero Simpson",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/7BTCEVMZHZEYZLDKK2PURZLLNE.jpeg?itok=YtAZNiGx",
         },
@@ -773,6 +1073,10 @@ const connectToMongoDB = async () => {
           field_category: "Cultura",
           field_credits: "Soledad Venesio",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/CBB7OMBPXFFOFM56AEOTYG5B4M.jpg?itok=c0dVPfO4",
         },
@@ -784,6 +1088,10 @@ const connectToMongoDB = async () => {
           field_category: "Literatura",
           field_credits: "Soledad Venesio",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/JJOK55IHEZDH5IVGY7RBONKADQ.jpg?itok=WR-QgCX5",
         },
@@ -795,6 +1103,10 @@ const connectToMongoDB = async () => {
           field_category: "Animales",
           field_credits: "Margo Robi",
           emotion: "Amor",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/I3L6SA4SSJB5JHLS47BF2ZKUSM.jpg?itok=D-sv_Cir",
         },
@@ -804,6 +1116,10 @@ const connectToMongoDB = async () => {
           field_credits: "Ludmila Moscato",
           field_category: "Últimas Noticias",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -814,6 +1130,10 @@ const connectToMongoDB = async () => {
           field_credits: "Laura Cedeira",
           field_category: "Histórico",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -824,6 +1144,10 @@ const connectToMongoDB = async () => {
           field_credits: "Benjamin Vicuña",
           field_category: "Histórico",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/KQG4A6QX2ZEBBPHRXCDK5ILZGU.jpg?itok=TIe1m3kg",
         },
@@ -835,6 +1159,10 @@ const connectToMongoDB = async () => {
           field_category: "Musica",
           field_credits: "Paz Azcárate",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/X4AY5ALTBRGKHM6PZBB6TEV4ZQ.jpg?itok=O7_giIc7",
         },
@@ -846,6 +1174,10 @@ const connectToMongoDB = async () => {
           field_category: "Horoscopo",
           field_credits: "Luisa Herlax",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/OKWIRBB5R5FWZL3MWT4H7OJEPM.jpg?itok=vGyKBMop",
         },
@@ -857,6 +1189,10 @@ const connectToMongoDB = async () => {
           field_category: "Amor",
           field_credits: "Stefania Dommarco",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/6C73EXJVIVGBFFGMO4SNZSGM4M.JPG?itok=vqrcWpTy",
         },
@@ -868,6 +1204,10 @@ const connectToMongoDB = async () => {
           field_category: "Espectaculo",
           field_credits: "Jessica Blady",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2XFDVWYXWVBT5GDYJIQLIV6LFI.jpg?itok=7NR_YQCa",
         },
@@ -878,6 +1218,10 @@ const connectToMongoDB = async () => {
           field_category: "Cultura",
           field_credits: "Violeta Galanternik",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/PDEQWEZJT5GGTLZGYHKEISZETY.jpg?itok=L_izPJXb",
         },
@@ -888,6 +1232,10 @@ const connectToMongoDB = async () => {
           field_category: "Maternidad",
           field_credits: "Daniela Chueke Perles",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/P3TILAAODNHHNG2DOF7U7CTPSI.jpg?itok=8yE-D2R3",
         },
@@ -898,6 +1246,10 @@ const connectToMongoDB = async () => {
           field_category: "Moda",
           field_credits: "Laura Laprida",
           emotion: "Pasion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
         },
@@ -908,6 +1260,10 @@ const connectToMongoDB = async () => {
           field_credits: "Ester Teican",
           field_category: "Histórico",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -917,6 +1273,10 @@ const connectToMongoDB = async () => {
           field_credits: "Roberto Galgo",
           field_category: "Histórico",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -926,6 +1286,10 @@ const connectToMongoDB = async () => {
           field_credits: "Jorge Perse",
           field_category: "Histórico",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary: "/images/placeholder.svg",
         },
         {
@@ -936,6 +1300,10 @@ const connectToMongoDB = async () => {
           field_category: "Espectaculo",
           field_credits: "Soledad Venesio",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/SPWNZGWMCRF6TDTDLQJRWS2PBQ.JPG?itok=oYEgxpnB",
         },
@@ -947,6 +1315,10 @@ const connectToMongoDB = async () => {
           field_category: "Espectaculo",
           field_credits: "Soledad Venesio",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/N7VC7Y7AARFNLBXLLJNWR2VOEI.jpg?itok=EBif-Yjp",
         },
@@ -958,6 +1330,10 @@ const connectToMongoDB = async () => {
           field_category: "Naturaleza",
           field_credits: "Inés Pujana",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/WDC62UBS4ZFRPIITEXJAEJ7SQA.jpg?itok=yWqCRoaG",
         },
@@ -968,6 +1344,10 @@ const connectToMongoDB = async () => {
           field_category: "Espectaculo",
           field_credits: "Soledad Venesio",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/QKWMHXI77JABPPZGCZ4ES5PDDU.jpg?itok=hvYMfgKJ",
         },
@@ -979,6 +1359,10 @@ const connectToMongoDB = async () => {
           field_category: "Horoscopo",
           field_credits: "Ana Bilsky",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/LZW45FWX2ZHOZNJH56PONFIYBY.jpg?itok=a02M3NfI",
         },
@@ -989,6 +1373,10 @@ const connectToMongoDB = async () => {
           field_category: "Naturaleza",
           field_credits: "Joy Schvindlerman",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/VINLXDASYZBNPBV6HDBPO7KTJA.jpg?itok=7s4QbPP0",
         },
@@ -999,6 +1387,10 @@ const connectToMongoDB = async () => {
           field_category: "Salud",
           field_credits: "Monica Argento",
           emotion: "Accion",
+          content: [
+            { type: "paragraph", content: "Una prueba" },
+            { type: "quote", content: "“Vos me proponés algo" },
+          ],
           field_img_primary:
             "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/HJMBOGRCUJDMBCX4WNW27EYTI4.jpg?itok=NX-429eg",
         },
