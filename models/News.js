@@ -7,6 +7,7 @@ const newsSchema= new Schema({
     emotion:String,
     content: { type : Array , "default" : [] },
     field_img_primary:String,
+    publication_date:Date
 })
 
 const News= model("News", newsSchema)
