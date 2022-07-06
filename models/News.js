@@ -5,6 +5,7 @@ const newsSchema= new Schema({
     field_credits:String,
     field_category:String,
     emotion:String,
+    content: { type : Array , "default" : [] },
     field_img_primary:String,
 })
 
