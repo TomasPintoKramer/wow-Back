@@ -19,11 +19,12 @@ userRouter.post("/login", passport.authenticate("local", {}), (req, res) => {
 });
 
 userRouter.post("/logout", (req, res, next) => {
+  console.log('entro')
   req.logOut(function (err) {
     if (err) {
       return next(err);
     }
-    res.redirect("/");
+    return res.sendStatus(200);
   });
 });
 
