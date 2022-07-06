@@ -18,7 +18,7 @@ userRouter.post("/login", passport.authenticate("local", {}), (req, res) => {
   res.json({ id: id, name: name });
 });
 
-userRouter.post("/logout", (req, res, next) => {
+userRouter.post("/logout", (req, res) => {
   req.logOut(function (err) {
     if (err) {
       return next(err);
