@@ -18,12 +18,13 @@ userRouter.post("/login", passport.authenticate("local", {}), (req, res) => {
   res.json({ id: id, name: name });
 });
 
+
 userRouter.post("/logout", (req, res) => {
   req.logOut(function (err) {
     if (err) {
       return next(err);
     }
-    res.redirect("/");
+    return res.sendStatus(200);
   });
 });
 
