@@ -36,26 +36,23 @@ newsRouter.get("/newses", (req, res, next) => {
     .catch(next);
 });
 
-newsRouter.get("/search/:field/:value", (req, res, next) => {
-  const {field, value}=req.params
-  console.log("🚀 ~ file: news.js ~ line 41 ~ newsRouter.get ~ req", req)
-  const like=`/${value}/`
-  News.find({})
-  .where(field).equals(value)
+newsRouter.get("/:url_news", (req, res, next) => {
+  const {url_news}=req.params
+  News.find({url:url_news})
     .then((data) => {
       res.send(data);
     })
     .catch(next);
 });
 
-newsRouter.get("/:id", (req, res, next)=>{
-    const {id}=req.params
-    News.findById(id)
-    .then((data) => {
-        res.send(data);
-      })
-      .catch(next);
-})
+// newsRouter.get("/:id", (req, res, next)=>{
+//     const {id}=req.params
+//     News.findById(id)
+//     .then((data) => {
+//         res.send(data);
+//       })
+//       .catch(next);
+// })
 
 newsRouter.post('/', (req,res,next)=>{
   const newContent=req.body
