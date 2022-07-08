@@ -47,7 +47,7 @@ app.use("/api", (req, res) => {
 app.use((err, req, res, next) => {
   res.status(500).send(err.message);
 });
-const port = 3001;
+const port = process.env.PORT || 3001;
 // Levanta el puerto y tira abajo la base de datos.
 
 app.listen(port, () => console.log(`Servidor escuchando en el puerto ${port}`));
