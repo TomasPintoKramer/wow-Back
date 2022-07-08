@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const connectionString =
   "mongodb+srv://userWow:wow2022@wowdb.bjojf.mongodb.net/wowDb?retryWrites=true&w=majority";
 
-mongoose
+ mongoose
   .connect(connectionString)
   .then(() => console.log("Data Base connected"))
   .catch((err) => console.log(err));

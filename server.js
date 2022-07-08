@@ -12,6 +12,7 @@ const News = require("./models/News.js");
 const cookieParser = require("cookie-parser");
 const User = require("./models/User");
 
+const uri = process.env.MONGODB_URI;
 // logging middleware
 app.use(morgan("dev"));
 
@@ -54,7 +55,7 @@ app.use("/api", (req, res) => {
 app.use((err, req, res, next) => {
   res.status(500).send(err.message);
 });
-const port = 3001;
+const port = process.env.PORT || 3001;
 // Levanta el puerto y tira abajo la base de datos.
 
 app.listen(port, () => console.log(`Servidor escuchando en el puerto ${port}`));
