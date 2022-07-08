@@ -9,17 +9,24 @@ const passport = require("./passport/setup");
 const MongoStore = require("connect-mongo");
 const mongoose = require("mongoose");
 const News = require("./models/News.js");
+const cookieParser = require("cookie-parser");
+const User = require("./models/User");
+
 const uri = process.env.MONGODB_URI;
 // logging middleware
 app.use(morgan("dev"));
 
 app.use(
   cors({
-    origin: "*",
+    credentials: true,
+    origin: "http://localhost:8000",
   })
 );
+
 // parsing middleware
 app.use(express.json());
+
+app.use(cookieParser());
 
 //authentication
 app.use(
@@ -38,11 +45,12 @@ app.use(passport.initialize());
 app.use(passport.session());
 //Ruteo
 app.use("/api", routes);
+
 //Ataja errores de 'not found'
+
 app.use("/api", (req, res) => {
   res.sendStatus(404);
 });
-
 // error middleware -> https://expressjs.com/es/guide/error-handling.html
 app.use((err, req, res, next) => {
   res.status(500).send(err.message);
