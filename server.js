@@ -9,7 +9,7 @@ const passport = require("./passport/setup");
 const MongoStore = require("connect-mongo");
 const mongoose = require("mongoose");
 const News = require("./models/News.js");
-
+const uri = process.env.MONGODB_URI;
 // logging middleware
 app.use(morgan("dev"));
 
