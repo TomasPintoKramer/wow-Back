@@ -16,6 +16,7 @@ userRouter.post("/register", async (req, res) => {
 
 userRouter.post("/login", function (req, res, next) {
   try {
+    console.log("HOLAAAA");
     passport.authenticate("local", function (err, user, info) {
       if (err) {
         return next(err);
