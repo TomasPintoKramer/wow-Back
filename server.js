@@ -11,14 +11,13 @@ const mongoose = require("mongoose");
 const News = require("./models/News.js");
 const cookieParser = require("cookie-parser");
 const User = require("./models/User");
-
 const uri = process.env.MONGODB_URI;
 // logging middleware
 app.use(morgan("dev"));
 
 app.use(
   cors({
-    origin: ["https://rito-mono.herokuapp.com", "http://localhost:8000"],
+    origin: ["http://localhost:8000"],
     credentials: true,
   })
 );
