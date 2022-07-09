@@ -18,7 +18,7 @@ app.use(morgan("dev"));
 
 app.use(
   cors({
-    origin: ["https://rito-mono.herokuapp.com/", "http://localhost:8000/"],
+    origin: ["https://rito-mono.herokuapp.com", "http://localhost:8000"],
     credentials: true,
   })
 );
