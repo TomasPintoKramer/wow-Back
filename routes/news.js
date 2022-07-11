@@ -37,48 +37,50 @@ newsRouter.get("/newses", (req, res, next) => {
 });
 
 newsRouter.get("/:url_news", (req, res, next) => {
-  const {url_news}=req.params
-  News.find({url:url_news})
+  const { url_news } = req.params;
+  News.find({ url: url_news })
     .then((data) => {
       res.send(data);
     })
     .catch(next);
 });
 
-// newsRouter.get("/:id", (req, res, next)=>{
-//     const {id}=req.params
-//     News.findById(id)
-//     .then((data) => {
-//         res.send(data);
-//       })
-//       .catch(next);
-// })
-
-newsRouter.post('/', (req,res,next)=>{
-  const newContent=req.body
-  News.create({...newContent})
-  .then((newNews)=>res.send(newNews))
-  .catch(next)
-})
-
-newsRouter.put('/:id', (req,res,next)=>{
-  const {id}=req.params
-  const newContent=req.body
-  News.updateOne({_id:id},{...newContent})
-  .then(()=>{News.findById(id)
+newsRouter.get("/:id", (req, res, next) => {
+  const { id } = req.params;
+  News.findById(id)
     .then((data) => {
-        res.send(data);
-      })
-      .catch(next);})
-  .catch(next)
-})
+      res.send(data);
+    })
+    .catch(next);
+});
 
-newsRouter.delete('/:id', (req,res,next)=>{
-  const {id}=req.params
-  console.log('entro')
-  News.deleteOne({_id:id})
-  .then((newNews)=>res.send(newNews))
-  .catch(next)
-})
+newsRouter.post("/", (req, res, next) => {
+  const newContent = req.body;
+  News.create({ ...newContent })
+    .then((newNews) => res.send(newNews))
+    .catch(next);
+});
+
+newsRouter.put("/:id", (req, res, next) => {
+  const { id } = req.params;
+  const newContent = req.body;
+  News.updateOne({ _id: id }, { ...newContent })
+    .then(() => {
+      News.findById(id)
+        .then((data) => {
+          res.send(data);
+        })
+        .catch(next);
+    })
+    .catch(next);
+});
+
+newsRouter.delete("/:id", (req, res, next) => {
+  const { id } = req.params;
+  console.log("entro");
+  News.deleteOne({ _id: id })
+    .then((newNews) => res.send(newNews))
+    .catch(next);
+});
 
 module.exports = newsRouter;
