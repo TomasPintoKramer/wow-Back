@@ -67,7 +67,7 @@ userRouter.post("/logout", (req, res) => {
 userRouter.get("/me", (req, res) => {
   req.user
     ? res.status(200).send(req.user)
-    : res.status(200).json({ err: req });
+    : res.status(304).json({ err: req });
 });
 
 module.exports = userRouter;
