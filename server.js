@@ -15,6 +15,7 @@ const uri = process.env.MONGODB_URI;
 // logging middleware
 app.use(morgan("dev"));
 
+app.set("trust proxy", 1);
 app.use(
   cors({
     origin: ["http://localhost:8000", "https://rito-mono.herokuapp.com"],
@@ -28,11 +29,16 @@ app.use(express.json());
 app.use(cookieParser());
 
 //authentication
+
 app.use(
   session({
     secret: "really really good looking",
     resave: false,
     saveUninitialized: true,
+    cookie: {
+      sameSite: process.env.NODE_ENV === "production" ? "none" : "lax", // must be 'none' to enable cross-site delivery
+      secure: process.env.NODE_ENV === "production", // must be true if sameSite='none'
+    },
     store: MongoStore.create({
       mongoUrl:
         "mongodb+srv://userWow:wow2022@wowdb.bjojf.mongodb.net/wowDb?retryWrites=true&w=majority",
