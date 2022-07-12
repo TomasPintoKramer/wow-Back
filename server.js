@@ -12,13 +12,18 @@ const News = require("./models/News.js");
 const cookieParser = require("cookie-parser");
 const User = require("./models/User");
 const uri = process.env.MONGODB_URI;
+const whitelist = [
+  "http://localhost:8000",
+  "https://rito-mono.herokuapp.com",
+  "rito-mono.herokuapp.com",
+];
 // logging middleware
 app.use(morgan("dev"));
 
 app.use(
   cors({
-    origin: ["http://localhost:8000", "https://rito-mono.herokuapp.com"],
     credentials: true,
+    origin: whitelist,
   })
 );
 
