@@ -16,7 +16,6 @@ userRouter.post("/register", async (req, res) => {
 
 userRouter.post("/login", function (req, res, next) {
   try {
-    console.log("HOLAAAA");
     passport.authenticate("local", function (err, user, info) {
       if (err) {
         return next(err);
@@ -68,7 +67,7 @@ userRouter.post("/logout", (req, res) => {
 userRouter.get("/me", (req, res) => {
   req.user
     ? res.status(200).send(req.user)
-    : res.status(409).send("NO REQ USER");
+    : res.status(409).send(console.log(req.session));
 });
 
 module.exports = userRouter;
