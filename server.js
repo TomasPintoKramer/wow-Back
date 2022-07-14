@@ -16,6 +16,7 @@ const whitelist = [
   "http://localhost:8000",
   "https://rito-mono.herokuapp.com",
   "rito-mono.herokuapp.com",
+  "https://abm-kappa.vercel.app",
 ];
 // logging middleware
 app.use(morgan("dev"));
