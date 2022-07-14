@@ -3,7 +3,9 @@ const {Schema, model}=require('mongoose')
 const SectionSchema= new Schema(
     {
         title:String,
-        schema:String
+        schema:String,
+        color:String,
+        
     }
 )
 
