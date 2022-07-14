@@ -21,11 +21,11 @@ const connectToMongoDB = async () => {
           field_category: "ACTUALIDAD",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/RCH5WTLFLBBM5KWMARK7ZKKD6M.jpg",
+            "https://resizer.glanacion.com/resizer/TOQ2jnFy0P6PvSlj6-yPWJ3CmyU=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CZK5ZBGY65DAPI5EJFYR3GYJVE.jpg",
         },
         {
           title: "Basta de modelos serias: la alegría es la nueva belleza",
@@ -34,11 +34,11 @@ const connectToMongoDB = async () => {
           field_category: "Belleza",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/ZNKOBAJ6MVD5BGLI4KGG5AG7S4.jpg",
+            "https://resizer.glanacion.com/resizer/LwQwKnaEF1VokYy8SQdMxLScns0=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/O6MW7MUUHFBRXGCLWKPH6CK4JM.jpg",
         },
         {
           title: "El camino de la alegría: consejos para ser más felices",
@@ -48,10 +48,10 @@ const connectToMongoDB = async () => {
           field_category: "Espiritualidad",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://resizer.glanacion.com/resizer/-rP47wpRZaaTVDG3jcSW1xb9gU0=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KOBOZ2UQJVG7PLRIFC74CQ5XPI.jpg",
         },
         {
           title: "Plan de Recuperación de la Alegría",
@@ -60,11 +60,11 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/OBCVXR2LDBEQRNHR7HNCOA3G7A.jpg",
+            "https://www.lanacion.com.ar/resizer/R_SvVrSPx1gyPYoVu000HS80InE=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/OBCVXR2LDBEQRNHR7HNCOA3G7A.jpg",
         },
         {
           title: "Luces y sombras de Dickens",
@@ -74,10 +74,10 @@ const connectToMongoDB = async () => {
           field_credits: "Guillermo Franchella",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.infobae.com/new-resizer/jsnAO2bYQuDapEpPfOm0GMJm38w=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/F27257WJ7ZCMBFXABCEAG6LVVA.jpg",
         },
         {
           title: "Un paseo de lo más pancho",
@@ -87,10 +87,10 @@ const connectToMongoDB = async () => {
           field_credits: "Josefina Dotto",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://i9.photobucket.com/albums/a55/rosebud_05_/waterhouse_circe_offering_the_cup_t.jpg",
         },
         {
           title: "Con cachaça y alegría",
@@ -100,10 +100,10 @@ const connectToMongoDB = async () => {
           field_credits: "Moe Zislak",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.lanacion.com.ar/resizer/ilFNj5fITUuB41yHBMiiyI4l4XU=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/UDJZH2LDPNEXPMFFJ5XJOTIXCA.jpg",
         },
         {
           title: "Instantáneas de Picasso",
@@ -113,10 +113,10 @@ const connectToMongoDB = async () => {
           field_credits: "Homero Simpson",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://masdearte.com/media/n_fotografia_picasso.gif",
         },
         {
           title: "Arrail do Cabo, fiel a su estilo brasileño",
@@ -126,10 +126,10 @@ const connectToMongoDB = async () => {
           field_credits: "Eber Luduenia",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://caminhoslanguages.com/wp-content/uploads/2021/11/Party-Food-in-Brazil.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1",
         },
         {
           title: "Una vez más, Papá Noel borra las fronteras",
@@ -139,10 +139,10 @@ const connectToMongoDB = async () => {
           field_credits: "-",
           emotion: "Alegria",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.elcato.org/sites/default/files/styles/story_tablet/public/images/stories/papa_noel_1.jpg?itok=oWwG7Grn&timestamp=1420493604",
         },
         {
           title:
@@ -153,10 +153,10 @@ const connectToMongoDB = async () => {
           field_category: "Últimas Noticias",
           emotion: "Tristeza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://resizer.glanacion.com/resizer/CPHi0Ec_qIrOyexANzY0qoqlkMI=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/EMBNWCTP2NGU5JMSJOW4N5XKMI.jpg",
         },
         {
           title: "Cómo combatir la flacidez facial y bolsas en los ojos",
@@ -166,10 +166,10 @@ const connectToMongoDB = async () => {
           field_category: "Belleza",
           emotion: "Tristeza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://resizer.glanacion.com/resizer/PJK-nsqqYmKhJFbNLB2bUlpaEsU=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/QYW5FLT22BAZTLKGSDJLVW3LBE.jpg",
         },
         {
           title: "El Nahuel Huapi sigue mordiendo el anzuelo",
@@ -179,10 +179,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Tristeza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.patagoniaandina.com/wp-content/uploads/2020/04/Portada-Nahuel-Huapi.jpg",
         },
         {
           title: "Tristeza no tiene fin",
@@ -191,10 +191,10 @@ const connectToMongoDB = async () => {
           field_credits: "-",
           emotion: "Tristeza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://revistasudestada.com.ar/media/cache/3c/fc/3cfc65fe79a24a141b6d59143b013577.jpg",
         },
         {
           title: "El Nahuel Huapi sigue mordiendo el anzuelo",
@@ -204,10 +204,10 @@ const connectToMongoDB = async () => {
           field_credits: "-",
           emotion: "Tristeza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.patagoniaandina.com/wp-content/uploads/2020/04/Portada-Nahuel-Huapi.jpg",
         },
         {
           title: "Luces y sombras de Dickens",
@@ -217,10 +217,10 @@ const connectToMongoDB = async () => {
           field_credits: "-",
           emotion: "Tristeza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://static.abc.es/Media/201112/08/OBJ3820406_1--644x362.JPG",
         },
         {
           title: "Luces y sombras de Dickens",
@@ -230,10 +230,10 @@ const connectToMongoDB = async () => {
           field_credits: "-",
           emotion: "Tristeza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://static.abc.es/Media/201112/08/OBJ3820406_1--644x362.JPG",
         },
         {
           title: "Ocio y negocios",
@@ -243,10 +243,10 @@ const connectToMongoDB = async () => {
           field_credits: "-",
           emotion: "Tristeza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.laizquierdadiario.com/local/cache-vignettes/L720xH405/arton52252-19695.jpg?1657463669",
         },
         {
           title:
@@ -257,11 +257,11 @@ const connectToMongoDB = async () => {
           field_category: "ACTUALIDAD",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/7UNNKOZCBRALPNZQVFJCAU5ZOI.jpg?itok=f3d-nSNA",
+            "https://www.lanacion.com.ar/resizer/qxKngxL5Nur2MeHmLBL4Krk3XNQ=/1200x800/filters:format(webp):quality(80):focal(245x253:255x243)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/7UNNKOZCBRALPNZQVFJCAU5ZOI.jpg",
         },
         {
           title:
@@ -271,11 +271,11 @@ const connectToMongoDB = async () => {
           field_category: "Historias",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/HLFXAK7AGVAWRG62IUHHDJVYSU.jpg?itok=72sviiKd",
+            "https://www.lanacion.com.ar/resizer/CcclOgU2PjCyt38hUc3Dt746VSs=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HLFXAK7AGVAWRG62IUHHDJVYSU.jpg",
         },
         {
           title:
@@ -285,11 +285,11 @@ const connectToMongoDB = async () => {
           field_category: "Maternidad y crianza",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/UIXKXCXAGFD5VJFAPU4LG7J7YM.jpg?itok=pxm_wXyR",
+            "https://www.lanacion.com.ar/resizer/QR4ta6wF04QRIfktCqz62v7TE24=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/UIXKXCXAGFD5VJFAPU4LG7J7YM.jpg",
         },
         {
           title: "El misterio de los sobris",
@@ -298,11 +298,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Simond",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/X35LQMI465FZZMVAUQKKKT66EE.jpg?itok=zLYRB6Nx",
+            "https://www.lanacion.com.ar/resizer/dQlERWWQvZCmm7wZautpQ67DijQ=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/X35LQMI465FZZMVAUQKKKT66EE.jpg",
         },
         {
           title: "Noches de crimen y misterio",
@@ -312,11 +312,11 @@ const connectToMongoDB = async () => {
           field_credits: "Alejandro Rapetti",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/ZQ8joREwwB43GgRRHS4Sdr-IZH8=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/T57DU6L5CZD27L7VWYP4YIAZKQ.jpg",
         },
         {
           title:
@@ -327,11 +327,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/nY0BhgpiGpOrBdLWmcY2dLpqs1Q=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/76F4LARLUZHBPOGVJ3SSVSRCLA.jpg",
         },
         {
           title: 'Por qué el amor nunca "cierra"',
@@ -340,11 +340,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/6UOQOyu8xpf-Q0bt3fePjizyHFY=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/5SYQEIW5GBEWXKDKTSNCJNBEOA.jpg",
         },
         {
           title: "Los mejores secretos de agosto de nuestras lectoras",
@@ -354,11 +354,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/Nyc2IuVlZbz62CJK9YADcv55p8k=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/GS5TOVHAVBEH5JMWZTSQLXJLIY.jpg",
         },
         {
           title: "De Perú a Zimbabue, cinco destinos que son un misterio",
@@ -367,11 +367,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/Hhuam1P-_Jdct4g7eOqlgveKwYg=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SOOYRW56CBB3TAF4N7VMC6CYRE.jpg",
         },
         {
           title: "Cuando el destino es un misterio",
@@ -381,11 +381,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Villamil",
           emotion: "Misterio",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/609949.jpg",
         },
         {
           title:
@@ -396,11 +396,11 @@ const connectToMongoDB = async () => {
           field_category: "ACTUALIDAD",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/NEULZZ5VRVB5PIXPOM7H42RYZA.jpg?itok=eoLLd6Ec",
+            "https://www.lanacion.com.ar/resizer/ySeONN0MUFMuhaDQD1ElvG3aduM=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/NEULZZ5VRVB5PIXPOM7H42RYZA.jpg",
         },
         {
           title: "7 programas para salir de la rutina",
@@ -410,11 +410,11 @@ const connectToMongoDB = async () => {
           field_category: "Recorridos",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/e_DS1FnZ0T4eBnORkqld-lkB9YM=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KL7PYOKBRBERJM7SOPTMSFLT6A.jpg",
         },
         {
           title:
@@ -425,11 +425,11 @@ const connectToMongoDB = async () => {
           field_category: "Últimas Noticias",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://www.infobae.com/new-resizer/PrTu0VbAyGreVfM1rt8967r5p9g=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/3LBNKGW32FBOBBLHKRQY7EJRGI.jpg",
         },
         {
           title:
@@ -440,11 +440,11 @@ const connectToMongoDB = async () => {
           field_credits: "Homero Simpson",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://www.infobae.com/new-resizer/PrTu0VbAyGreVfM1rt8967r5p9g=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/3LBNKGW32FBOBBLHKRQY7EJRGI.jpg",
         },
         {
           title: "Sumergida en un mar de libros. Una reflexión ferial",
@@ -453,11 +453,11 @@ const connectToMongoDB = async () => {
           field_credits: "Carina Durn",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/jDMRX2TPUwSRPMkanmVhKcFEvPE=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SWFOSSJYORGTLMJC2WDCU3LRCQ.jpg",
         },
         {
           title: "¿Seguís sin pareja? No sos la única",
@@ -467,11 +467,11 @@ const connectToMongoDB = async () => {
           field_credits: "Marge Simpson",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/V6kIDBlQ7B0jzSMdzD6Wv_D0D24=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/S4ISWF3Y5ZF3VGZ34Z4ZJV2JHU.jpg",
         },
         {
           title: "La movida del otoño, en las paredes",
@@ -481,11 +481,11 @@ const connectToMongoDB = async () => {
           field_credits: "Susana Pampin",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/Dml3iNURTVj1gQIvWpIIhsrlrnM=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/3YPEAOXAOVAFNLVCCFODFZ7FMI.jpg",
         },
         {
           title: '"Contar con alguien en quien descansar"',
@@ -495,11 +495,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Villamil",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://www.lanacion.com.ar/resizer/Q5gYW7GqDIpPHxSubIIzYtV0R7k=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FNR54WPRGNHXLMPEKI2MSO5OPY.png",
         },
         {
           title: "Reflexión adulta",
@@ -508,11 +508,11 @@ const connectToMongoDB = async () => {
           field_credits: "Moe Zislak",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://www.redaccion.com.ar/wp-content/uploads/2021/06/20210614_Newsletters_oxigeno.jpg",
         },
         {
           title: "¿Qué espera un hijo de una madre?",
@@ -522,11 +522,11 @@ const connectToMongoDB = async () => {
           field_credits: "Marge Simpson",
           emotion: "Reflexion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/kuMiCvhR4rrGAq8_wC3IrrNXGm8=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/PWN42MYVB5AHZGO3RADGGTQ464.jpg",
         },
         {
           title:
@@ -537,11 +537,11 @@ const connectToMongoDB = async () => {
           field_category: "Historias",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/7ZS5ADTIAZAPTDVHFVZJ6B2CJY.jpg?itok=wchCf89j",
+            "https://resizer.glanacion.com/resizer/Bkzu9eFaevbZNkMNWmeAquEvrsw=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/ATNUZ2ZQV5GYFFWO4JVX4PCDBA.jpg",
         },
         {
           title:
@@ -552,11 +552,11 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/CKBL6ZJ6HZEKTGUB3AXG5PLCNE.jpg?itok=Z-YA51LV",
+            "https://www.lanacion.com.ar/resizer/L9eTBK0CFnuPI14luS-BrBwCEUI=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CKBL6ZJ6HZEKTGUB3AXG5PLCNE.jpg",
         },
         {
           title:
@@ -567,11 +567,11 @@ const connectToMongoDB = async () => {
           field_category: "ACTUALIDAD",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/SP4TAVAMIZBK5NO2W6RNTOOJYI.jpg?itok=4rKSCVw4",
+            "https://www.lanacion.com.ar/resizer/dGMQHJfcg9hOnjXipFvUUYWiZR8=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SP4TAVAMIZBK5NO2W6RNTOOJYI.jpg",
         },
         {
           title:
@@ -582,11 +582,11 @@ const connectToMongoDB = async () => {
           field_credits: "Laura Gambale",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/QRNHTL7FGBAZTCA54GR6DRLKBM.jpg?itok=fl0L3MJz",
+            "https://www.lanacion.com.ar/resizer/FaJPBTt1JQdSEbgrwaxev2mo6AU=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/QRNHTL7FGBAZTCA54GR6DRLKBM.jpg",
         },
         {
           title:
@@ -597,11 +597,11 @@ const connectToMongoDB = async () => {
           field_credits: "Marge Simpson",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/KIZQUBZCPBD7HD6EB6IKVPIXTY.jpg?itok=jI6dd5oS",
+            "https://www.lanacion.com.ar/resizer/5hrCXb16FgnEzr_6IYXZvAzb4PY=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WRDRPFQS7NFGJMZR6E2OOETTII.jpg",
         },
         {
           title: "La luna de gusano: por qué se llama así",
@@ -611,11 +611,11 @@ const connectToMongoDB = async () => {
           field_credits: "Ezequiel Brahim",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/LLMGQ5KD5FHJRIJZDKJ6APLWSY.jpg?itok=xPAoF7xP",
+            "https://www.lanacion.com.ar/resizer/WbZcpradUvOoCwu8LwoYbgMMeRQ=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/LLMGQ5KD5FHJRIJZDKJ6APLWSY.jpg",
         },
         {
           title:
@@ -626,11 +626,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Venesio",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/O2FKEKDWQRCGBC7LJSLRWYSYNE.jpg?itok=1bJao9kH",
+            "https://resizer.glanacion.com/resizer/XwdyesPUwLz8uoRnLo2OLEqxPLE=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FRULF6GMD5H6BOMBXN6TODBDOA.jpg",
         },
         {
           title:
@@ -641,11 +641,11 @@ const connectToMongoDB = async () => {
           field_credits: "María Paz Moltedo",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/MFADZWYM5JD2NOY2FVINCPFQOY.jpeg?itok=vD_8aTYR",
+            "https://www.lanacion.com.ar/resizer/aKNkbTLa6lHvqQJZQXFhhJ57dY0=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MFADZWYM5JD2NOY2FVINCPFQOY.jpeg",
         },
         {
           title:
@@ -656,11 +656,11 @@ const connectToMongoDB = async () => {
           field_credits: "Ana Paula Queija",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/NDUBGW6MF5BU3PQYSFFWTBWJMY.jpg?itok=mubUxuW1",
+            "https://www.lanacion.com.ar/resizer/tzKGfm8JqmcoAztoOM70qaGCgK0=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/NDUBGW6MF5BU3PQYSFFWTBWJMY.jpg",
         },
         {
           title:
@@ -671,11 +671,11 @@ const connectToMongoDB = async () => {
           field_credits: "Romina Salusso",
           emotion: "Naturaleza",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/WTZPBCWX4RFCTNIQKOOBTO6EMM.jpg?itok=9eE2N4H9",
+            "https://www.lanacion.com.ar/resizer/Gy2156AnIBrlEX1dK2h1EZXOV2E=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WTZPBCWX4RFCTNIQKOOBTO6EMM.jpg",
         },
         {
           title:
@@ -685,11 +685,11 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/KDRLXVMACFDW5MKAN5RJNOUSLQ.jpg?itok=o1p-PjJC",
+            "https://www.lanacion.com.ar/resizer/avzoh0dWfUc1IVM-f2ZfrdeEGzE=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KDRLXVMACFDW5MKAN5RJNOUSLQ.jpg",
         },
         {
           title: "6 hoteles pensados para niños",
@@ -699,11 +699,11 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/WaGvpwRv2p7QPNQkdHXCdkhYml0=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HZ7FQTDZG5HMVB2JJJIWHPUAGI.jpg",
         },
         {
           title:
@@ -714,11 +714,11 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2TP3GR2CJFEELP4TXFVM4OETOA.jpg?itok=ya7llY4G",
+            "https://www.lanacion.com.ar/resizer/KzjPyf42T_2HllVIDwFe-C6NU9w=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/2TP3GR2CJFEELP4TXFVM4OETOA.jpg",
         },
         {
           title: "6 parques acuáticos brasileños de Camboriú a Fortaleza",
@@ -728,11 +728,11 @@ const connectToMongoDB = async () => {
           field_credits: "Homero Simpson",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/FTS2JZVVFRAAJMFZ4OUMZB5LJE.jpg?itok=inqEos11",
+            "https://resizer.glanacion.com/resizer/kM344KLHVs0VIOJz874EqC3_iyg=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HIPCHVA26ZB45FZL42ZA5IF2A4.jpg",
         },
         {
           title: "Moda: noche de amigas",
@@ -741,11 +741,11 @@ const connectToMongoDB = async () => {
           field_credits: "Susana Villamil",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/iQtwBM-L2bo2_FqYAHIPtz1pSjI=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/TK3FKT5ZSZA6HH7PUFATTQY6LE.jpg",
         },
         {
           title: "Sexo: técnicas para darte tu propio placer",
@@ -755,11 +755,11 @@ const connectToMongoDB = async () => {
           field_credits: "Romina Zanellato",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/Y6SGQY76FNDDBIVPBFBA4F5QVE.jpg?itok=Ga8U8NwN",
+            "https://www.lanacion.com.ar/resizer/Hzg3n6wtwU39b1cMaYEqDjdvQGs=/1200x800/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SAYFGRLMXJGT3HPJDJKG4VCVQE.jpg",
         },
         {
           title: "5 nuevas formas de hacer ejercicio",
@@ -769,11 +769,11 @@ const connectToMongoDB = async () => {
           field_credits: "Susana Pampin",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/YZ1GG3J7HVJbZFNSjcKtVZL-ulU=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/23RXYE5KERBMPAZL7THR3IKGGA.jpg",
         },
         {
           title: "Premios, diversión y mucha actitud en el cierre de BAFWEEK",
@@ -783,11 +783,11 @@ const connectToMongoDB = async () => {
           field_credits: "Susana Villamil",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/bafweek_0.jpg",
         },
         {
           title: "Emociones fuertes en el lado b de la montaña",
@@ -797,11 +797,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Maradona",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/E3SPudLd4wdrk0hD_VPUiBP5mpE=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4AGPS47G3NHPJI3I7G2MXXQ7Q4.jpg",
         },
         {
           title: "Sin nieve, con diversión",
@@ -811,11 +811,11 @@ const connectToMongoDB = async () => {
           field_credits: "Susana Pele",
           emotion: "Diversion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://www.tiempoar.com.ar/wp-content/uploads/2021/07/20210801Cerro-Catedral-2.jpg",
         },
         {
           title: "Una meditación para cortar con la rutina.",
@@ -825,11 +825,11 @@ const connectToMongoDB = async () => {
           field_category: "Últimas Noticias",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/podcast433x65011610070160.png?itok=2ANc9z0C",
+            "https://resizer.glanacion.com/resizer/HnPATmgrCHhUbjpu474KfJOvU-c=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/H42UTHCQRBD7VPIZNKIT5LLYRM.jpg",
         },
         {
           title:
@@ -839,11 +839,11 @@ const connectToMongoDB = async () => {
           field_category: "ACTUALIDAD",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/image%20142.png?itok=rheu8TY8",
+            "https://www.lanacion.com.ar/resizer/TgMd6sZosWKnFiP1OSQ4W-FXOEc=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KXVOGWY7Y5ACFOCPMHGKBGIOHE.jpg",
         },
         {
           title:
@@ -853,11 +853,11 @@ const connectToMongoDB = async () => {
           field_category: "ACTUALIDAD",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/Enmascarar%20grupo%20110.png?itok=Ea0qhiuH",
+            "https://www.lanacion.com.ar/resizer/iLuw8Mz6XCQ0o7BTaPH5XTgEtGw=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/TAQKBTQRNRHEJKD7UNHQ53RL3U.png",
         },
         {
           title:
@@ -868,11 +868,11 @@ const connectToMongoDB = async () => {
           field_credits: "Susana Pampin",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/SBYLK2AIDBFWRFX7OKRK7UUH34.jpg?itok=IXJdL5gq",
+            "https://www.lanacion.com.ar/resizer/zVwexocG9qn3GOFn5JaPbP1y2Ig=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SBYLK2AIDBFWRFX7OKRK7UUH34.jpg",
         },
         {
           title: "Semana Santa: 5 lugares de Córdoba que vas a querer visitar",
@@ -882,11 +882,11 @@ const connectToMongoDB = async () => {
           field_credits: "Gabriela Origlia ",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/J2JQLSOBDRC67G3ILFU6TLOKQA.jpg?itok=zoYJgBLs",
+            "https://www.lanacion.com.ar/resizer/DQWQAVSBL3jaNwzbli4Sg5uqrh0=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SQRVCKVJJFGSDLLJ76ZY2TOWHE.jpg",
         },
         {
           title:
@@ -897,11 +897,11 @@ const connectToMongoDB = async () => {
           field_credits: "Cecilia Alemano",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/CJWVQEYYRZG3RN7OALJGWGH6TM.jpg?itok=LJ3zZ-UO",
+            "https://www.lanacion.com.ar/resizer/3gutH3au1DWV5_xSlO8JN_GIwt0=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CJWVQEYYRZG3RN7OALJGWGH6TM.jpg",
         },
         {
           title:
@@ -912,11 +912,11 @@ const connectToMongoDB = async () => {
           field_credits: "Paz Azcárate",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/X4AY5ALTBRGKHM6PZBB6TEV4ZQ.jpg?itok=O7_giIc7",
+            "https://www.lanacion.com.ar/resizer/gXTMiN3-R0kao3Lw8A9R8nK0sNU=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/X4AY5ALTBRGKHM6PZBB6TEV4ZQ.jpg",
         },
         {
           title:
@@ -927,11 +927,11 @@ const connectToMongoDB = async () => {
           field_credits: "Susana Pampin",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/0l3IdSy2_oXP_6jnFEF2drHMG10=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/47AR2GDUEZGR7GRYKRDQJ62W5M.jpg",
         },
         {
           title: "¿Cuánto costará veranear en las sierras de Córdoba?",
@@ -941,11 +941,11 @@ const connectToMongoDB = async () => {
           field_credits: "Gabriela Origlia ",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/LA8KDDB8ypek0zBjNkkfs3hIrbg=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/6WPPW53CZRFDPMJWABEN7MGVF4.jpg",
         },
         {
           title:
@@ -956,11 +956,11 @@ const connectToMongoDB = async () => {
           field_credits: "Susana Villamil",
           emotion: "Paz",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/-qUYL0z91DIv3VIqBdg4o8nhQWc=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FTPFTVGUGBHC3CI2IK6GBHJLWQ.jpg",
         },
         {
           title:
@@ -971,11 +971,11 @@ const connectToMongoDB = async () => {
           field_category: "Astrología",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2022-06/LZW45FWX2ZHOZNJH56PONFIYBY.jpg?itok=R-D04dSh",
+            "https://www.lanacion.com.ar/resizer/QgWJ4iCGX7wSO9V9SbiIjnHRHwE=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/LZW45FWX2ZHOZNJH56PONFIYBY.jpg",
         },
         {
           title:
@@ -985,10 +985,10 @@ const connectToMongoDB = async () => {
           field_category: "Historias",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.lanacion.com.ar/resizer/rsE0zIxDcmYH6GFUjVx-fB2kFjo=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/DQTLKSVXKRF7LGXWBF3THEP3QI.jfif",
         },
         {
           title:
@@ -999,11 +999,11 @@ const connectToMongoDB = async () => {
           field_category: "ACTUALIDAD",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/CD4J3BNBU5C6BOVIKC5YTENMFA.jpg?itok=F85jrDHv",
+            "https://www.lanacion.com.ar/resizer/LrO2MVtKfyNRMuwyN3wxUPjyzD8=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CD4J3BNBU5C6BOVIKC5YTENMFA.jpg",
         },
         {
           title:
@@ -1014,11 +1014,11 @@ const connectToMongoDB = async () => {
           field_credits: "Ale Sergi",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/VZ6O72WNPZDWNOKUCMWVG5C4MQ.JPG?itok=k-j4tx5M",
+            "https://www.lanacion.com.ar/resizer/Xo48r-0kqx33r1oPzy78O_h0l4U=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/VZ6O72WNPZDWNOKUCMWVG5C4MQ.JPG",
         },
         {
           title:
@@ -1029,11 +1029,11 @@ const connectToMongoDB = async () => {
           field_credits: "Karina Korn",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/BHCAE2RUBVBOTJYLWUFGF73JD4.jpg?itok=3dEBlPmc",
+            "https://www.lanacion.com.ar/resizer/EnLC782BwnuvFlsLOHNHFLzOhhM=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/BHCAE2RUBVBOTJYLWUFGF73JD4.jpg",
         },
         {
           title:
@@ -1044,11 +1044,11 @@ const connectToMongoDB = async () => {
           field_credits: "Ayelén Di Leva",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/PANWX6ZZWZDWTEO22SSKB5GZKU.jpg?itok=K8uOGSC6",
+            "https://www.lanacion.com.ar/resizer/g05GQXII2UwrzJic_JlkUP7ncyQ=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/PANWX6ZZWZDWTEO22SSKB5GZKU.jpg",
         },
         {
           title:
@@ -1059,11 +1059,11 @@ const connectToMongoDB = async () => {
           field_credits: "Homero Simpson",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/7BTCEVMZHZEYZLDKK2PURZLLNE.jpeg?itok=YtAZNiGx",
+            "https://www.lanacion.com.ar/resizer/c7xPyCm5uj0gGxuvm3N8RIOpW6M=/1200x800/filters:format(webp):quality(80):focal(395x483:405x473)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/7BTCEVMZHZEYZLDKK2PURZLLNE.jpeg",
         },
         {
           title:
@@ -1074,11 +1074,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Venesio",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/CBB7OMBPXFFOFM56AEOTYG5B4M.jpg?itok=c0dVPfO4",
+            "https://www.lanacion.com.ar/resizer/Q4KZ080UdFnXx2iRLE4BlQY4rlk=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CBB7OMBPXFFOFM56AEOTYG5B4M.jpg",
         },
         {
           title:
@@ -1089,11 +1089,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Venesio",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/JJOK55IHEZDH5IVGY7RBONKADQ.jpg?itok=WR-QgCX5",
+            "https://www.lanacion.com.ar/resizer/xDb_-CqCd9KXa-A3mMpu-Rjv9yc=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/JJOK55IHEZDH5IVGY7RBONKADQ.jpg",
         },
         {
           title:
@@ -1104,11 +1104,11 @@ const connectToMongoDB = async () => {
           field_credits: "Margo Robi",
           emotion: "Amor",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/I3L6SA4SSJB5JHLS47BF2ZKUSM.jpg?itok=D-sv_Cir",
+            "https://www.lanacion.com.ar/resizer/XpNh2EvZ2HJt1ebePe6-O4GuEWY=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/I3L6SA4SSJB5JHLS47BF2ZKUSM.jpg",
         },
         {
           title: "San Valentín: 7 escapadas para celebrar el amor",
@@ -1117,11 +1117,11 @@ const connectToMongoDB = async () => {
           field_category: "Últimas Noticias",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/N6C2wbwQ1Tmbq0DxmtcwKq2jtHM=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDZ3ORUAP5A6PFR3C7Y5LG2VII.jpg",
         },
         {
           title: "En 7 meses creó su marca de joyas: cómo lo hizo",
@@ -1131,11 +1131,11 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/_9x9CUGGA4ht1XhiEAUupVKN90M=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/PS2W5JUP2BGPHENY3E7SPO4O6A.jpg",
         },
         {
           title: 'Inés Estévez. "El turista típico altera el paisaje"',
@@ -1145,11 +1145,11 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/KQG4A6QX2ZEBBPHRXCDK5ILZGU.jpg?itok=TIe1m3kg",
+            "https://www.lanacion.com.ar/resizer/EumFKBzzrF5OUm3BdegxAl4vZnI=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KQG4A6QX2ZEBBPHRXCDK5ILZGU.jpg",
         },
         {
           title:
@@ -1160,11 +1160,11 @@ const connectToMongoDB = async () => {
           field_credits: "Paz Azcárate",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/X4AY5ALTBRGKHM6PZBB6TEV4ZQ.jpg?itok=O7_giIc7",
+            "https://www.lanacion.com.ar/resizer/gXTMiN3-R0kao3Lw8A9R8nK0sNU=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/X4AY5ALTBRGKHM6PZBB6TEV4ZQ.jpg",
         },
         {
           title:
@@ -1175,11 +1175,11 @@ const connectToMongoDB = async () => {
           field_credits: "Luisa Herlax",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/OKWIRBB5R5FWZL3MWT4H7OJEPM.jpg?itok=vGyKBMop",
+            "https://www.lanacion.com.ar/resizer/TMyDITxrgQF-6qcfgVH11YedcW4=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/OKWIRBB5R5FWZL3MWT4H7OJEPM.jpg",
         },
         {
           title:
@@ -1190,11 +1190,11 @@ const connectToMongoDB = async () => {
           field_credits: "Stefania Dommarco",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/6C73EXJVIVGBFFGMO4SNZSGM4M.JPG?itok=vqrcWpTy",
+            "https://www.lanacion.com.ar/resizer/yyEwK_kfmFjO5NrLV7GuBDN8u24=/1200x800/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/6C73EXJVIVGBFFGMO4SNZSGM4M.JPG",
         },
         {
           title:
@@ -1205,11 +1205,11 @@ const connectToMongoDB = async () => {
           field_credits: "Jessica Blady",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/2XFDVWYXWVBT5GDYJIQLIV6LFI.jpg?itok=7NR_YQCa",
+            "https://www.lanacion.com.ar/resizer/ZsbKLnKSMswdvariARbaUI2cRNw=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/2XFDVWYXWVBT5GDYJIQLIV6LFI.jpg",
         },
         {
           title:
@@ -1219,11 +1219,11 @@ const connectToMongoDB = async () => {
           field_credits: "Violeta Galanternik",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/PDEQWEZJT5GGTLZGYHKEISZETY.jpg?itok=L_izPJXb",
+            "https://www.lanacion.com.ar/resizer/h1OnTHHIqziq5MryYpoqPkKpgBI=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/PDEQWEZJT5GGTLZGYHKEISZETY.jpg",
         },
         {
           title:
@@ -1233,11 +1233,11 @@ const connectToMongoDB = async () => {
           field_credits: "Daniela Chueke Perles",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/P3TILAAODNHHNG2DOF7U7CTPSI.jpg?itok=8yE-D2R3",
+            "https://www.lanacion.com.ar/resizer/BD7MQtJ4lyLOoS5U6mbOmxYUeIQ=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/P3TILAAODNHHNG2DOF7U7CTPSI.jpg",
         },
         {
           title: "Laura Laprida enciende nuestra moda roja",
@@ -1247,11 +1247,11 @@ const connectToMongoDB = async () => {
           field_credits: "Laura Laprida",
           emotion: "Pasion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com//sites/default/files/2022-06/placeholder_0.svg",
+            "https://resizer.glanacion.com/resizer/l5bBShWKBPrV2w7avUQhsit_uIk=/879x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/IP2FK6Y3MFEZHGA6FPRLWU7ZNE.jpg",
         },
         {
           title: "Tierra del Fuego: la aventura no tiene fin",
@@ -1261,10 +1261,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.clarin.com/img/2022/05/30/tierra-del-fuego-ofrece-un____aABkcRp-_2000x1500__1.jpg",
         },
         {
           title: "Muñecas bravas",
@@ -1274,10 +1274,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.lanacion.com.ar/resizer/JtWl-SDk3Lk5mW65mXFFGHvJzKI=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/23GRHZVXRFBSRJUUMC3427NGTA.jpg",
         },
         {
           title: "Muñecas bravas",
@@ -1287,10 +1287,10 @@ const connectToMongoDB = async () => {
           field_category: "Histórico",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
-          field_img_primary: "/images/placeholder.svg",
+          field_img_primary: "https://www.lanacion.com.ar/resizer/JtWl-SDk3Lk5mW65mXFFGHvJzKI=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/23GRHZVXRFBSRJUUMC3427NGTA.jpg",
         },
         {
           title:
@@ -1301,11 +1301,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Venesio",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/SPWNZGWMCRF6TDTDLQJRWS2PBQ.JPG?itok=oYEgxpnB",
+            "https://www.lanacion.com.ar/resizer/6kR7avcz6FOLHyFF3H5yhS-2RwA=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SPWNZGWMCRF6TDTDLQJRWS2PBQ.JPG",
         },
         {
           title:
@@ -1316,11 +1316,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Venesio",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/N7VC7Y7AARFNLBXLLJNWR2VOEI.jpg?itok=EBif-Yjp",
+            "https://www.lanacion.com.ar/resizer/dZbD6o47NhiB_rDtpd60oSxwLME=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/N7VC7Y7AARFNLBXLLJNWR2VOEI.jpg",
         },
         {
           title:
@@ -1331,11 +1331,11 @@ const connectToMongoDB = async () => {
           field_credits: "Inés Pujana",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/WDC62UBS4ZFRPIITEXJAEJ7SQA.jpg?itok=yWqCRoaG",
+            "https://www.lanacion.com.ar/resizer/_fJubGRhH_pDIh8kmrn166HPNHg=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WDC62UBS4ZFRPIITEXJAEJ7SQA.jpg",
         },
         {
           title: "¿Qué series de televisión estrenan en noviembre?",
@@ -1345,11 +1345,11 @@ const connectToMongoDB = async () => {
           field_credits: "Soledad Venesio",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/QKWMHXI77JABPPZGCZ4ES5PDDU.jpg?itok=hvYMfgKJ",
+            "https://es.web.img2.acsta.net/newsv7/21/10/29/13/17/2060374.jpg",
         },
         {
           title:
@@ -1360,11 +1360,11 @@ const connectToMongoDB = async () => {
           field_credits: "Ana Bilsky",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/LZW45FWX2ZHOZNJH56PONFIYBY.jpg?itok=a02M3NfI",
+            "https://www.lanacion.com.ar/resizer/QgWJ4iCGX7wSO9V9SbiIjnHRHwE=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/LZW45FWX2ZHOZNJH56PONFIYBY.jpg",
         },
         {
           title:
@@ -1374,11 +1374,11 @@ const connectToMongoDB = async () => {
           field_credits: "Joy Schvindlerman",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/VINLXDASYZBNPBV6HDBPO7KTJA.jpg?itok=7s4QbPP0",
+            "https://www.lanacion.com.ar/resizer/MCbeBCDeVO09GsI9fPWRoQJ0RUM=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/VINLXDASYZBNPBV6HDBPO7KTJA.jpg",
         },
         {
           title:
@@ -1388,11 +1388,11 @@ const connectToMongoDB = async () => {
           field_credits: "Monica Argento",
           emotion: "Accion",
           content: [
-            { type: "paragraph", content: "Una prueba" },
-            { type: "quote", content: "“Vos me proponés algo" },
+            { type: "Paragraph", content: "Una prueba" },
+            { type: "Quote", content: "“Vos me proponés algo" },
           ],
           field_img_primary:
-            "https://ohlala-drupal-do.bd-it.com/sites/default/files/styles/story_medium/public/HJMBOGRCUJDMBCX4WNW27EYTI4.jpg?itok=NX-429eg",
+            "https://www.lanacion.com.ar/resizer/Bhi7iGRmL5xynEBZ_zGizaXKDpM=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HJMBOGRCUJDMBCX4WNW27EYTI4.jpg",
         },
       ]);
     } finally {
@@ -1401,4 +1401,4 @@ const connectToMongoDB = async () => {
   });
 };
 
-//  connectToMongoDB();
+  connectToMongoDB();
