@@ -6,8 +6,8 @@ const userRouter = express.Router();
 userRouter.post("/register", async (req, res) => {
   const userName = await User.findOne({ name: req.body.name });
   const userEmail = await User.findOne({ email: req.body.email });
-  if (userName) res.status(409).send("User name already exist");
-  if (userEmail) res.status(409).send("User mail already exist");
+  if (userName) return res.status(409).send("User name already exist");
+  if (userEmail) return res.status(409).send("User mail already exist");
   else {
     const newUser = await User.create(req.body);
     res.status(201).send(newUser);
